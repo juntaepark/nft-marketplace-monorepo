@@ -1,0 +1,35 @@
+{
+	"folders": [
+	  {
+		"name": "web",
+		"path": "packages/web"
+	  },
+	  {
+		"name": "monorepo",
+		"path": "."
+	  }
+	],
+	"settings": {
+	  "editor.formatOnSave": true,
+	  "editor.insertSpaces": true,
+	  "editor.detectIndentation": false,
+	  "search.exclude": {
+		"**/.yarn": true,
+		"**/.pnp.*": true
+	  },
+	  "eslint.nodePath": "../../.yarn/sdks",
+	  "eslint.enable": true,
+	  "eslint.run": "onType",
+	  "eslint.workingDirectories": ["packages/web"],
+	  "prettier.prettierPath": "../../.yarn/sdks/prettier/index.js",
+	  "typescript.tsdk": "../../.yarn/sdks/typescript/lib",
+	  "typescript.enablePromptUseWorkspaceTsdk": true
+	},
+	"extensions": {
+	  "recommendations": [
+		"arcanis.vscode-zipfs",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig"
+	  ]
+	}
+  }

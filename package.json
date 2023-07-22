@@ -1,0 +1,12 @@
+{
+  "name": "nft-marketplace-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
